@@ -1,0 +1,55 @@
+# Diretórios
+DIR 01;30;43       # branco negrito no fundo amarelo
+
+# Links simbólicos
+LINK 01;36         # ciano negrito (para manter padrão link)
+
+# Executáveis
+EXEC 01;32         # verde negrito
+
+# Pipe e socket
+PI 31              # vermelho
+SOCK 31            # vermelho
+
+# Orphan e missing
+ORPHAN 31          # vermelho
+MISSING 31         # vermelho
+
+# Dispositivos
+BLK 33             # amarelo
+CHR 33             # amarelo
+
+# Arquivos comuns não mapeados
+FILE 0             # branco simples
+
+# =========================
+# Código-fonte — negrito e cores distintas
+.html 01;34        # azul negrito
+.css 01;35        # magenta negrito
+.js 01;33         # amarelo negrito
+.ts 01;33         # amarelo negrito
+.vue 01;32        # verde negrito
+.java 01;31       # vermelho negrito (para diferenciar de link)
+.py 01;36         # ciano negrito
+.sh 01;37         # branco negrito
+.php 01;35        # magenta negrito
+.rb 01;31         # vermelho negrito
+.c 01;36          # ciano negrito
+.cpp 01;36        # ciano negrito
+.h 01;36          # ciano negrito
+.cs 01;35         # magenta negrito
+.go 01;32         # verde negrito
+.rs 01;31         # vermelho negrito
+
+# =========================
+# Compactados — cores sem negrito
+.zip 31
+.tar 31
+.gz 31
+.bz2 31
+.xz 31
+
+# Imagens — cores sem negrito
+.jpg 35
+.png 35
+.svg 35
